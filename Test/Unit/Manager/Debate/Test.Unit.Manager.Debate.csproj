@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>x64</Platforms>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\Manager\Debate\Service\ModelDebate.Manager.Debate.Service.csproj" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="NUnit"                  />
+        <PackageReference Include="NUnit.Analyzers"        />
+        <PackageReference Include="NUnit3TestAdapter"      />
+        <PackageReference Include="coverlet.collector"     />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    </ItemGroup>
+</Project>

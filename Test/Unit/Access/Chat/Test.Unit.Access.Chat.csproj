@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>x64</Platforms>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\Access\Chat\Service.Claude\ModelDebate.Access.Chat.Service.Claude.csproj" />
+        <ProjectReference Include="..\..\..\..\Access\Chat\Service.OpenAI\ModelDebate.Access.Chat.Service.OpenAI.csproj" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="NUnit"                  />
+        <PackageReference Include="NUnit.Analyzers"        />
+        <PackageReference Include="NUnit3TestAdapter"      />
+        <PackageReference Include="coverlet.collector"     />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    </ItemGroup>
+</Project>
