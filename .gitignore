@@ -11,10 +11,8 @@
 
 # AWS User-specific
 .idea/**/aws.xml
-
 **/bin/
 **/obj/
-
 # Generated files
 .idea/**/contentModel.xml
 
@@ -478,4 +476,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-**/.env
+.idea
