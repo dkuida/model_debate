@@ -85,6 +85,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plans", "plans", "{8A8A0572
 		docs\plans\2026-04-26-model-debate-phase2.md = docs\plans\2026-04-26-model-debate-phase2.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample-runs", "sample-runs", "{7A4D09E5-9FA2-4536-81CF-FDD0E5117CD1}"
+	ProjectSection(SolutionItems) = preProject
+		sample-runs\pineapple-on-pizza.txt = sample-runs\pineapple-on-pizza.txt
+		sample-runs\tabs-vs-spaces-1.txt = sample-runs\tabs-vs-spaces-1.txt
+		sample-runs\tabs-vs-spaces-2.txt = sample-runs\tabs-vs-spaces-2.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
